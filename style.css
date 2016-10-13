@@ -1,0 +1,209 @@
+body {
+  font-family: "Helvitca Neue", helvetica, arial, sans-serif;
+  font-size: 14px;
+  color:#333;
+  height: 2999px;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+em {
+  color: #bdd436;
+  font-weight: bold;
+}
+
+.font-alt {
+  font-family: 'Oswald', sans-serif;
+}
+
+.special-title {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 300px;
+}
+
+
+.main {
+  background: url("img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  /*min-height: 73vh;*/
+  text-align: center;
+  width: 100vw;
+  padding-top: px;
+  margin-top: 4px;
+}
+
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 50px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 100;
+}
+
+.headerLogoImg {
+  height: 35px;
+}
+
+.hamburger-menu {
+
+
+
+}
+
+
+
+h1 {
+  font-size: 144px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  /*display: inline-block;*/
+}
+
+h1 span {
+  font-size: 22px;
+  display: block;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+
+
+h3 {
+  font-size: 18px;
+  display: block;
+  padding: 10px 40px;
+  color: white;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size:;
+}
+
+
+span.orange {
+  color: rgb(237, 133, 24);
+}
+
+span.green {
+  color: #bdd436;
+}
+
+
+.main-button {
+  margin: 40px 0;
+  padding: 15px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #bdd436;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  /*background-color: rgba(171,199,61, 0.95);*/
+  background-color: rgb(171, 205, 66);
+}
+
+section.how-it-works {
+  padding: 40px 30px;
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 36px;
+  text-align: center;
+  color: #6A787C;
+  background-color: #dedede;
+}
+
+#how-it-works-sprite {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 40px auto;
+  background-image: url("img/sprite_home.png");
+  background-repeat: no-repeat;
+  background-position: -22px -113px;
+}
+
+
+
+@media (min-width: 800px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+
+  header {
+
+  }
+
+  .header-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 30px;
+  }
+
+
+
+  .hamburger-menu {
+    font-size: 1.8em;
+    color: #aaa;
+    margin-right: 75px;
+  }
+
+  .hamburger-menu:hover {
+    color: #555;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+}
+
+@media (max-width: 700px) {
+
+  h1{
+    font-size: 80px;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+  /*body {
+    font-family: "Helvitca Neue", helvetica, arial, sans-serif;
+    font-size: 14px;
+    color:#333;
+    height: 2999px;
+  }*/
+
+  h1 {
+    font-size: 50px;
+  }
+
+
+
+}
